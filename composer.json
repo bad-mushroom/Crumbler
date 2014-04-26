@@ -1,5 +1,5 @@
 {
-    "name": "badmushroom/crumbler",
+    "name": "bad-mushroom/crumbler",
 	"license": "MIT",
     "description": "Breadcrumb builder for Laravel 4",
 	"keywords": ["breadcrumb"],
