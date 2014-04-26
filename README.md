@@ -44,8 +44,8 @@ To generate the HTML for the crumb trail:
 
 	Crumbler::build();
 
-build() takes an optional string parameter for the breadcrumb separator. This can be a single character like '>' or 
-a a line of html like <span class="myClass">::</span>. The default is: <span class="separator">/</span>
+build() takes an optional string parameter for the breadcrumb separator. This can be a single character like '&gt;' or 
+a a line of html like &lt;span class="myClass"&gt;::&lt;/span&gt;. The default is: &lt;span class="separator"&gt;/&lt;/span&gt;
 
 As an example, in your controller file:
 
