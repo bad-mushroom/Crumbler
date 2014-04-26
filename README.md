@@ -49,7 +49,6 @@ a a line of html like &lt;span class="myClass"&gt;::&lt;/span&gt;. The default i
 
 As an example, in your controller file:
 
-<?php
 
 	// You can add some base breadcrumbs in your constructor.
 	public function __construct()
@@ -67,7 +66,7 @@ As an example, in your controller file:
 	}
 
 
-The output of the above example would be:
+The above example would output the following in your view:
 
 
 	<ul class="crumbler">
@@ -77,3 +76,7 @@ The output of the above example would be:
 	</ul>
 
 The last breadcrumb element will be considered the "active" link. You'll also want to add your own css as necessary.
+
+# License
+
+http://opensource.org/licenses/MIT
